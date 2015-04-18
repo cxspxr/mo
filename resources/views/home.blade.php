@@ -5,12 +5,18 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 @stop
 
-@section("body")
+@section("left")
 
 	@include("layouts.inc.home.slider")
 
-	@include("layouts.inc.home.content")
+	@include("layouts.inc.home.left")
 	
+@stop
+
+@section("right")
+
+	@include("layouts.right")
+
 @stop
 
 @section("footer")

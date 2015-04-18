@@ -1,7 +1,7 @@
 @extends("layouts.main")
 
-@section("body")
+@section("left")
 
-	@include("layouts.inc.contact.content")
+	@include("layouts.inc.contact.left")
 	
 @stop

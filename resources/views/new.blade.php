@@ -4,6 +4,14 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 @stop
 
-@section("body")
-	@include("layouts.inc.new.content")
+@section("left")
+
+	@include("layouts.inc.new.left")
+
+@stop
+
+@section("right")
+
+	@include("layouts.right")
+
 @stop

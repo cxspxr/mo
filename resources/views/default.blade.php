@@ -1,7 +1,13 @@
 @extends("layouts.main")
 
-@section("body")
+@section("left")
 
-	@include("layouts.inc.default.content")
+	@include("layouts.inc.default.left")
 	
+@stop
+
+@section("right")
+	
+	@include("layouts.right")
+
 @stop

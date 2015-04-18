@@ -1,8 +1,8 @@
 @extends("layouts.main")
 
-@section("body")
+@section("left")
 
-	@include("layouts.inc.fullwidth.content")
+	@include("layouts.inc.fullwidth.left")
 	
 @stop
 

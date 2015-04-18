@@ -1,7 +1,7 @@
 <div class="header">
 	<div class="header-title">PRIVET</div>
 	<ul class="header-navbar">
-		<a class='header-item' href='/'>HOME</a>
+		<a class='header-item' href='./'>HOME</a>
 		<li class="header-item">TEMPLATES
 			<ul class="header-item-drop">
 				<li><a href='./default' class='pages'>DEFAULT PAGE</a></li>

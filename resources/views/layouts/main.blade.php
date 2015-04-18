@@ -14,7 +14,11 @@
 
 			@include("layouts.inc.header")
 
-			@yield('body')
+			<div class="content">
+				@yield('left')
+				
+				@yield('right')
+			</div>
 
 			@include("layouts.inc.footer")
 
